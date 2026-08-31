@@ -1,0 +1,12 @@
+p {
+    font-size: 35px;
+    background-color: black;
+    font-style: italic;
+}
+#nama {
+    color:rgb(117, 219, 32);
+    background-color: aqua;
+}
+.bio {
+    color:rgb(8, 67, 177);
+}

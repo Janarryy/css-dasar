@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.kotak {
+box-sizing: border-box;
+padding: 20px;
+border: 5px solid teal;
+}
+
+
+
+.navbar {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px solid teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: auto;
+    height: 150px;
+}
+
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px
+    ;
+}
+
+.galeri div {
+    border: 2px solid teal;
+}
+

@@ -1,25 +1,35 @@
 * {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.kotak {
-box-sizing: border-box;
-padding: 20px;
-border: 5px solid teal;
-}
 
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background-color: #f8fafc;
+}
 
 
 .navbar {
     box-sizing: border-box;
-    padding: 20px;
-    border: 5px solid teal;
+    padding: 16px ;
+    border: 3px solid teal;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     width: auto;
     height: 150px;
+    list-style: none;
+    background-color: teal;
+}
+
+.hero-image {
+    margin: 0%;
+    flex: 1 1 280px;
 }
 
 
@@ -33,4 +43,62 @@ border: 5px solid teal;
 .galeri div {
     border: 2px solid teal;
 }
+
+.produk-card {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-letik {
+    margin-top: auto;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.grid-produk {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.judul {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.kartu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 18px 20px;
+  background-color: #0f172a;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+
+
+
+
 

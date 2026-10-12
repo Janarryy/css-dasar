@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 body {
-  font-family: Arial, sans-serif;
+  line-height: 1.5;
   color: #1f2937;
   background-color: #f8fafc;
 }
@@ -16,7 +17,7 @@ body {
 .navbar {
     box-sizing: border-box;
     padding: 16px ;
-    border: 3px solid teal;
+    border: 3px solid rgb(0, 1, 14);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,20 +25,63 @@ body {
     width: auto;
     height: 150px;
     list-style: none;
-    background-color: teal;
+    background-color: rgb(218, 32, 32);
+    color: #f8fafc;
 }
 
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding: 48px 32px;
+  background-color: rgb(225, 225, 228);
+}
 .hero-image {
     margin: 0%;
     flex: 1 1 280px;
+    
 }
 
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  margin-bottom: 16px;
+}
+
+.btn-produk {
+  padding: 12px;
+  
+}
 
 .galeri {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px
-    ;
+    gap: 12px;
+    padding: 48px 32px;
 }
 
 .galeri div {
@@ -70,18 +114,27 @@ body {
 
 .judul {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   color: #0f172a;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.wadah-galeri {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
 }
 
 .kartu {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
+  border: 1px solid rgb(88, 83, 83);
   padding: 16px;
-
+  align-items: center;
+  text-align: center;
+  gap: 8px;
 }
 
 
